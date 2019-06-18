@@ -47,9 +47,6 @@ namespace task_two
 
         public static double Load(string fileName)
         {
-            // чтение из файла
-            // и вывод на экран
-
             FileStream fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             BinaryReader bw = new BinaryReader(fs);
             double min = double.MaxValue;
